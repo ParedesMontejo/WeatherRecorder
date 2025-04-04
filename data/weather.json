@@ -1,0 +1,51 @@
+{
+    "2024-12-25": {
+        "temperature": 40.0,
+        "humidity": 30.0,
+        "uv_index": 3.0,
+        "dew_point": 25.0,
+        "wind_speed": 25.0
+    },
+    "2025-01-01": {
+        "temperature": 37.0,
+        "humidity": 17.0,
+        "uv_index": 1.0,
+        "dew_point": 14.0,
+        "wind_speed": 25.0
+    },
+    "2025-02-02": {
+        "temperature": 38.0,
+        "humidity": 18.0,
+        "uv_index": 1.0,
+        "dew_point": 13.0,
+        "wind_speed": 24.0
+    },
+    "2025-02-28": {
+        "temperature": 39.0,
+        "humidity": 30.0,
+        "uv_index": 1.0,
+        "dew_point": 30.0,
+        "wind_speed": 20.0
+    },
+    "2025-03-03": {
+        "temperature": 39.0,
+        "humidity": 19.0,
+        "uv_index": 1.0,
+        "dew_point": 14.0,
+        "wind_speed": 25.0
+    },
+    "2025-04-02": {
+        "temperature": 40.0,
+        "humidity": 26.0,
+        "uv_index": 3.0,
+        "dew_point": 27.0,
+        "wind_speed": 15.0
+    },
+    "2025-04-03": {
+        "temperature": 40.0,
+        "humidity": 20.0,
+        "uv_index": 2.0,
+        "dew_point": 15.0,
+        "wind_speed": 25.0
+    }
+}
