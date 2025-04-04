@@ -90,7 +90,6 @@ def main():
         wind_speed = float(input(" Enter Wind Speed (m/s) : "))
         if not (0 <= wind_speed <= 100):
             print("Oops, Wind Speed must be between 0-100  only...")
-        # add 3 more weather phenomenon here, such as UV index, etc.
         
         records[date] = {
             "temperature": temperature,
@@ -98,7 +97,6 @@ def main():
             "uv_index": uv_index,
             "dew_point": dew_point,
             "wind_speed": wind_speed,
-            # add the key-value pairs here...
         }
         
     print("\nSaving to file...")
@@ -113,12 +111,9 @@ def main():
         uv_index = data["uv_index"]
         dew_point = data["dew_point"]
         wind_speed = data["wind_speed"]
-        # phenomenon3 = data["phenomenon3"]
-        # phenomenon4 = data["phenomenon4"]
-        # phenomenon5 = data["phenomenon5"]
 
         print(f"{formatted_date}\t| {temperature:.1f}°C\t| {humidity:.1f}%\t| {uv_index}\t| {dew_point:.1f}°C\t| {wind_speed:.1f}m/s\t|")
-        # print(f" * {phenomenon3:,.1f} symbol | ...")
+       
         
 if __name__ == "__main__":
     main()
